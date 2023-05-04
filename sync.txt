@@ -1,0 +1,15 @@
+-task 1 (1s)
+-task 2  (0.5s)
+-task 3  (2s)
+
+
+
+synchronus code (blocking code) : 
+===> task 1 , task 2 , task 3  ==> 3.5s 
+
+
+asynchronus code (non-blocking code) :
+
+==> task 2, task 1, task 3 ==> 2s
+
+reactjs == nodejs == asynchronus
